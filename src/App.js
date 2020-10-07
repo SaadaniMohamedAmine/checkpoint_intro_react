@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Form from './Form.js'
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Form from "./Form.js";
 
 function App() {
   return (
-    <div>
-      <Form />
+    <div className="page"
+    style={{backgroundColor: "lightblue"},{}}
+     >
+      <div className="frame">
+        <Form />
+      </div>
     </div>
   );
 }
